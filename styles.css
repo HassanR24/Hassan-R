@@ -1,0 +1,75 @@
+/* font-family: 'Bilbo Swash Caps', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Serif', serif;
+font-family: 'Ubuntu', sans-serif; */
+
+.hero-background {
+  background-image: url(/assets/images/background.jpg);
+  background-size: auto;
+  background-position-y: 50px;
+  height: 90vh;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  padding-top: 30px;
+  font-size: 60px;
+  color: #0f4c75;
+}
+
+h3 {
+  color: #3282b8;
+  font-weight: bold;
+  font-family: "Roboto Serif", serif;
+}
+
+p {
+  font-family: "Ubuntu", sans-serif;
+  color: #1b262c;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.name {
+  font-family: "Bilbo Swash Caps", cursive;
+}
+
+.nav-link {
+  color: #0f4c75;
+  font-size: large;
+}
+
+.section-title {
+  display: flex;
+  justify-content: center;
+  border-bottom: 500px;
+  height: 20vh;
+}
+
+.featurette,
+.lead {
+  padding-top: 50px;
+}
+
+.back-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  background-color: #3282b8;
+}
