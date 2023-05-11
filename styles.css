@@ -6,7 +6,8 @@ font-family: 'Ubuntu', sans-serif; */
 .hero-background {
   background-image: url(./assets/images/background.jpg);
   background-size: auto;
-  background-position-y: 50px;
+  background-position-y: -50px;
+  background-position-x: center;
   height: 90vh;
 }
 
@@ -80,4 +81,12 @@ p {
 
 .footer {
   background-color: #3282b8;
+}
+
+.social {
+  padding-right: 100px;
+}
+
+.cr {
+  padding-left: 100px;
 }
